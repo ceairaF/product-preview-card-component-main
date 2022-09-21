@@ -86,23 +86,53 @@ img{
 
 @media only screen and (min-width: 1440px){
 
+
     .main{
         background-color: white;
         border-radius:15px;
-        width: 800px;
-        height:600px;
+        width: 710px;
+        height:500px;
        
     }
 
     .preview{
         float:left;
        background-image: url(images/image-product-desktop.jpg);
+       width:350px;
+       height:500px;
+    }
+
+    h2{
+        margin-top:0px;
+        margin-bottom:5px;
     }
 
     .bottom{
-        max-width:400px;
+        max-width:300px;
         float:right;
         margin:0;
+        padding:10px 20px 0 20px;
+        justify-content: center;
     }
+
+    .description{
+        padding:0 20px 0 20px;
+    }
+
+    .new-price, .old-price{
+        padding-left:20px;
+    }
+
+    .btn-primary{
+
+        margin:20px 0 0 20px;
+        width:250px;
+    }
+
+
+
+
 }
+
+
 
