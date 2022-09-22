@@ -6,11 +6,18 @@
 
 body{
     background-color: #f2ebe3;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2%;
+    overflow:hidden;
+
 }
 .main{
     background-color: white;
     border-radius:15px;
     width:375px;
+
 }
 
 h2{
@@ -31,10 +38,12 @@ letter-spacing: 5px;
 }
 
 .preview{
-   
     background-image: url(images/image-product-mobile.jpg);
     width:100%;
     height:200px;
+    background-size: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 
 }
 
@@ -80,6 +89,11 @@ img{
   
 }
 
+.attribution{
+    display: flex;
+    align-items:flex-end;
+}
+
 }
 
 /*Desktop 1440px*/
@@ -87,17 +101,24 @@ img{
 @media only screen and (min-width: 1440px){
 
 
+    body{
+       margin: 10%;
+    }
+
     .main{
         background-color: white;
         border-radius:15px;
         width: 710px;
         height:500px;
-       
+
     }
 
     .preview{
         float:left;
        background-image: url(images/image-product-desktop.jpg);
+       border-bottom-left-radius: 8px;
+       border-top-right-radius: 0px;
+       background-size: cover;
        width:350px;
        height:500px;
     }
@@ -127,6 +148,7 @@ img{
 
         margin:20px 0 0 20px;
         width:250px;
+        
     }
 
 
